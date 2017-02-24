@@ -52,7 +52,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-        dateformat:require('dateformat');
+        dateformat:require('dateformat')
     },
 
     storageModule: require("./couchstorage")
